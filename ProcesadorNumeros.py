@@ -7,6 +7,7 @@ class ProcesadorNumeros:
         resultado[0] = self.calcularCantidadNumeros(numeros)
         resultado[1] = self.calcularMinimo(numeros)
         resultado[2] = self.calcularMaximo(numeros)
+        resultado[3] = self.calcularPromedio(numeros)
         return resultado
 
     def calcularCantidadNumeros(self, numeros):
@@ -35,3 +36,10 @@ class ProcesadorNumeros:
             return numeros[0]
         else:
             return 0
+
+    def calcularPromedio(self,numeros):
+        if len(numeros) > 0:
+            return numeros[0]
+        else:
+            return 0
+
