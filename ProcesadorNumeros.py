@@ -1,6 +1,6 @@
 __autor__= 'Paula Castellanos'
 
 class ProcesadorNumeros:
-    def procesarVacio(self, cadena):
+    def procesarListaNumero (self, cadena):
         return 0;
 
