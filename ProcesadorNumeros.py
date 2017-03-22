@@ -3,10 +3,16 @@ __autor__= 'Paula Castellanos'
 class ProcesadorNumeros:
     def procesarListaNumeros (self, cadena):
         resultado = [0]*4
-        if cadena == "":
-            resultado[0] = 0
-        else:
-            numeros = cadena.split(',')
-            resultado[0] = len(numeros)
-        resultado[1] = 0
+        resultado[0] = self.calcularCantidadNumeros(cadena)
+        resultado[1] = self.calcularMinimo(cadena)
         return resultado
+
+    def calcularCantidadNumeros(self, cadena):
+        resultado = 0
+        if cadena != "":
+            numeros = cadena.split(',')
+            resultado = len(numeros)
+        return resultado
+
+    def calcularMinimo(self, cadena):
+        return 0
