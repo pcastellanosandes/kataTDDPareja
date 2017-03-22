@@ -6,6 +6,7 @@ class ProcesadorNumeros:
         numeros = self.convertirAInt(cadena)
         resultado[0] = self.calcularCantidadNumeros(numeros)
         resultado[1] = self.calcularMinimo(numeros)
+        resultado[2] = self.calcularMaximo(numeros)
         return resultado
 
     def calcularCantidadNumeros(self, numeros):
@@ -27,3 +28,7 @@ class ProcesadorNumeros:
                 nums.append(int(num))
 
         return  nums
+
+    def calcularMaximo(self, numeros):
+        numeros.reverse()
+        return numeros[0]
