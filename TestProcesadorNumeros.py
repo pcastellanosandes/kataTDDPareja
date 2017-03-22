@@ -15,6 +15,7 @@ class TestProcesadorNumeros(TestCase):
         self.assertEqual(resultado[0], 1, "Validar cadena un numero")
         self.assertEqual(resultado[1], 12, "Obtener minimo cadena con un numero")
         self.assertEqual(resultado[2], 12,  "Obtener maximo cadena con un numero")
+        self.assertEqual(resultado[3], 12,  "Obtener promedio un numero")
 
     def test_ListaDosNumeros(self):
         resultado = ProcesadorNumeros().procesarListaNumeros("12,2")
