@@ -6,6 +6,8 @@ class ProcesadorNumeros:
         numeros = cadena.split(',')
         if(cadena == ""):
             resultado[0] = 0
+        elif ',' in cadena:
+            resultado[0] = 2
         else:
             resultado[0] = 1
         return resultado
