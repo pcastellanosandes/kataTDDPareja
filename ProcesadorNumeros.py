@@ -27,8 +27,11 @@ class ProcesadorNumeros:
             for num in numeros:
                 nums.append(int(num))
 
-        return  nums
+        return nums
 
     def calcularMaximo(self, numeros):
         numeros.reverse()
-        return numeros[0]
+        if len(numeros) > 0:
+            return numeros[0]
+        else:
+            return 0
