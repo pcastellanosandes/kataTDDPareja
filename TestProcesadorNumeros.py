@@ -18,3 +18,8 @@ class TestProcesadorNumeros(TestCase):
     def test_ListaNNumeros(self):
         resultado = ProcesadorNumeros().procesarListaNumeros("12,2,44")
         self.assertEqual(resultado[0], 3, "Validar cadena con n  numeros")
+
+    def test_ListaVaciaConMinimo(self):
+        resultado = ProcesadorNumeros().procesarListaNumeros("")
+        self.assertEqual(resultado[0], 0, "Validar cadena con n  numeros")
+        self.assertEqual(resultado[1], 0, "Obtener minimo de cadena vacia")
