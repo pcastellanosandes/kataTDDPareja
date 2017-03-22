@@ -15,6 +15,13 @@ class ProcesadorNumeros:
         return resultado
 
     def calcularMinimo(self, cadena):
-        numeros = cadena.split(',')
-        numeros.reverse()
+        numeros = self.convertirAInt(cadena)
+        numeros.sort()
         return numeros[0]
+
+    def convertirAInt(self, cadena):
+        if cadena != "":
+            numeros = cadena.split(',')
+            return [int(numeric_string) for numeric_string in numeros]
+        else:
+            return [0]
