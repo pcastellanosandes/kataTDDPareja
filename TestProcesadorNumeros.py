@@ -4,7 +4,13 @@ from ProcesadorNumeros import ProcesadorNumeros
 class TestProcesadorNumeros(TestCase):
 
     def test_ListaVacia(self):
-        self.assertEqual(ProcesadorNumeros().procesarListaNumero(""), 0, "Validar cadena vacia")
+        resultado = ProcesadorNumeros().procesarListaNumeros("")
+        self.assertEqual(resultado[0], 0, "Validar cadena vacia")
 
     def test_ListaUnNumero(self):
-        self.assertEqual(ProcesadorNumeros().procesarListaNumero("12"), 1, "Validar cadena un numero")
+        resultado = ProcesadorNumeros().procesarListaNumeros("12")
+        self.assertEqual(resultado[0], 1, "Validar cadena un numero")
+
+    def test_ListaDosNumeros(self):
+        resultado = ProcesadorNumeros().procesarListaNumeros("12,2")
+        self.assertEqual(resultado[0], 2, "Validar cadena con dos numeros")
