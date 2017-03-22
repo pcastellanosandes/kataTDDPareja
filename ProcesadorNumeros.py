@@ -6,9 +6,8 @@ class ProcesadorNumeros:
         numeros = cadena.split(',')
         if(cadena == ""):
             resultado[0] = 0
-        elif ',' in cadena:
-            resultado[0] = 2
+        elif ',' in cadena :
+            resultado[0] = len(numeros)
         else:
             resultado[0] = 1
         return resultado
-
