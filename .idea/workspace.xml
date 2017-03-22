@@ -4,8 +4,7 @@
     <list default="true" id="3f56fe28-5be3-429e-8621-0f3b1ae98574" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/KataTDD.iml" afterPath="$PROJECT_DIR$/.idea/KataTDD.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestProcesadorNumeros.py" afterPath="$PROJECT_DIR$/TestProcesadorNumeros.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProcesadorNumeros.py" afterPath="$PROJECT_DIR$/ProcesadorNumeros.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,7 +17,7 @@
     <SUITE FILE_PATH="coverage/KataTDD$Unittests_in_TestProcesadorNumeros.coverage" NAME="Unittests in TestProcesadorNumeros Coverage Results" MODIFIED="1490144822512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/kataTDDPareja$ProcesadorNumeros.coverage" NAME="ProcesadorNumeros Coverage Results" MODIFIED="1490149191970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/kataTDDPareja$Unittests_in_TestProcesadorNumeros__1_.coverage" NAME="Unittests in TestProcesadorNumeros (1) Coverage Results" MODIFIED="1490148619632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/KataTDD$Unittests_in_TestProcesadorNumeros__1_.coverage" NAME="Unittests in TestProcesadorNumeros (1) Coverage Results" MODIFIED="1490149429935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/KataTDD$Unittests_in_TestProcesadorNumeros__1_.coverage" NAME="Unittests in TestProcesadorNumeros (1) Coverage Results" MODIFIED="1490149811203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -29,8 +28,8 @@
       <file leaf-file-name="ProcesadorNumeros.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ProcesadorNumeros.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="204">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -39,9 +38,11 @@
       <file leaf-file-name="TestProcesadorNumeros.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestProcesadorNumeros.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
-              <folding />
+            <state relative-caret-position="170">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -62,8 +63,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/test_procesadorNumeros.py" />
-        <option value="$PROJECT_DIR$/ProcesadorNumeros.py" />
         <option value="$PROJECT_DIR$/TestProcesadorNumeros.py" />
+        <option value="$PROJECT_DIR$/ProcesadorNumeros.py" />
       </list>
     </option>
   </component>
@@ -469,27 +470,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_TestProcesadorNumeros_(1) - 2017.03.21 at 20h 57m 02s.xml">
-      <configuration name="Unittests in TestProcesadorNumeros (1)" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_TestProcesadorNumeros_(1) - 2017.03.21 at 20h 58m 15s.xml">
-      <configuration name="Unittests in TestProcesadorNumeros (1)" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_TestProcesadorNumeros_(1) - 2017.03.21 at 20h 58m 51s.xml">
-      <configuration name="Unittests in TestProcesadorNumeros (1)" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_TestProcesadorNumeros_(1) - 2017.03.21 at 20h 59m 18s.xml">
-      <configuration name="Unittests in TestProcesadorNumeros (1)" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_TestProcesadorNumeros_(1) - 2017.03.21 at 21h 02m 31s.xml">
-      <configuration name="Unittests in TestProcesadorNumeros (1)" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_TestProcesadorNumeros_(1) - 2017.03.21 at 21h 02m 48s.xml">
-      <configuration name="Unittests in TestProcesadorNumeros (1)" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_TestProcesadorNumeros_(1) - 2017.03.21 at 21h 04m 27s.xml">
-      <configuration name="Unittests in TestProcesadorNumeros (1)" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_TestProcesadorNumeros_(1) - 2017.03.21 at 21h 04m 30s.xml">
       <configuration name="Unittests in TestProcesadorNumeros (1)" configurationId="tests" />
     </history-entry>
@@ -497,6 +477,27 @@
       <configuration name="Unittests in TestProcesadorNumeros (1)" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_in_TestProcesadorNumeros_(1) - 2017.03.21 at 21h 23m 50s.xml">
+      <configuration name="Unittests in TestProcesadorNumeros (1)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_TestProcesadorNumeros_(1) - 2017.03.21 at 21h 25m 13s.xml">
+      <configuration name="Unittests in TestProcesadorNumeros (1)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_TestProcesadorNumeros_(1) - 2017.03.21 at 21h 26m 23s.xml">
+      <configuration name="Unittests in TestProcesadorNumeros (1)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_TestProcesadorNumeros_(1) - 2017.03.21 at 21h 26m 29s.xml">
+      <configuration name="Unittests in TestProcesadorNumeros (1)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_TestProcesadorNumeros_(1) - 2017.03.21 at 21h 27m 22s.xml">
+      <configuration name="Unittests in TestProcesadorNumeros (1)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_TestProcesadorNumeros_(1) - 2017.03.21 at 21h 27m 40s.xml">
+      <configuration name="Unittests in TestProcesadorNumeros (1)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_TestProcesadorNumeros_(1) - 2017.03.21 at 21h 29m 36s.xml">
+      <configuration name="Unittests in TestProcesadorNumeros (1)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_TestProcesadorNumeros_(1) - 2017.03.21 at 21h 30m 11s.xml">
       <configuration name="Unittests in TestProcesadorNumeros (1)" configurationId="tests" />
     </history-entry>
   </component>
@@ -547,10 +548,24 @@
           <line>10</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ProcesadorNumeros.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/TestProcesadorNumeros.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="3" />
+      <option name="time" value="7" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="tests">
+        <watch expression="len(resultado)" language="Python" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ProcesadorNumeros.py">
@@ -565,7 +580,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="64" lean-forward="false" selection-start-line="19" selection-start-column="64" selection-end-line="19" selection-end-column="64" />
-          <folding />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -581,7 +598,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -597,7 +616,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-          <folding />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -613,7 +634,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -621,16 +644,18 @@
     <entry file="file://C:/Program Files (x86)/Python27/Lib/unittest/case.py" />
     <entry file="file://$PROJECT_DIR$/TestProcesadorNumeros.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
-          <folding />
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ProcesadorNumeros.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
