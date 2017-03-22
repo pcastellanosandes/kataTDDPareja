@@ -15,4 +15,6 @@ class ProcesadorNumeros:
         return resultado
 
     def calcularMinimo(self, cadena):
-        return 0
+        numeros = cadena.split(',')
+        numeros.reverse()
+        return numeros[0]
