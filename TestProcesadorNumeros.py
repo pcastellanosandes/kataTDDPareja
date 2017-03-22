@@ -29,3 +29,4 @@ class TestProcesadorNumeros(TestCase):
         self.assertEqual(resultado[0], 3, "Validar cadena con n  numeros")
         self.assertEqual(resultado[1], 2, "Validar minimo de cadena con n numeros")
         self.assertEqual(resultado[2], 44, "Validar maximo de cadena con n numeros ")
+        self.assertEqual(resultado[3], 19, "Obtener promedio con n  numeros ")
