@@ -38,11 +38,12 @@ class ProcesadorNumeros:
             return 0
 
     def calcularPromedio(self, numeros):
+        resultado = 0
         if len(numeros) > 0:
-            resultado = 0
             for num in numeros:
                 resultado = resultado + num
-            return resultado / len(numeros)
-        else:
-            return 0
+            resultado = resultado / len(numeros)
+
+        return resultado
+
 
